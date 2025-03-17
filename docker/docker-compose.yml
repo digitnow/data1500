@@ -16,9 +16,9 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - /Users/janisg/volumes:/var/lib/mysql:Z
+      - <hjemmemappe>/volumes:/var/lib/mysql:Z # Erstatt <hjemmemappe> med din egen
     environment:
-      MARIADB_ROOT_PASSWORD: OsloMet2024!  # Erstatt <passord> med ditt valgte passord
+      MARIADB_ROOT_PASSWORD: <passord>  # Erstatt <passord> med ditt valgte passord
     restart: unless-stopped
 
   # Trial OpenJDK Alpine-tjeneste
@@ -28,7 +28,7 @@ services:
     networks:
       - data1500-nettverk
     volumes:
-      - /Users/janisg/trial-openjdk-alpine:/var/lib/misc:z
+      - <hjemmemappe>/trial-openjdk-alpine:/var/lib/misc:z # Erstatt <hjemmemappe> med din egen
     ports:
       - "8080:8080"  # Eksponer port 8080 til vertsmaskinen
     stdin_open: true  # Tilsvarer -i i docker run
