@@ -1,0 +1,36 @@
+version: '3.8'
+
+# Definer nettverk
+networks:
+  data1500-nettverk:
+    driver: bridge
+
+# Definer tjenester (containere)
+services:
+  # Trial MariaDB-tjeneste
+  trial-mariadb:
+    image: mariadb:latest
+    container_name: trial-mariadb
+    networks:
+      - data1500-nettverk
+    ports:
+      - "3306:3306"
+    volumes:
+      - /Users/janisg/volumes:/var/lib/mysql:Z
+    environment:
+      MARIADB_ROOT_PASSWORD: OsloMet2024!  # Erstatt <passord> med ditt valgte passord
+    restart: unless-stopped
+
+  # Trial OpenJDK Alpine-tjeneste
+  trial-openjdk-alpine:
+    image: bellsoft/liberica-openjdk-alpine:latest
+    container_name: trial-openjdk-alpine
+    networks:
+      - data1500-nettverk
+    volumes:
+      - /Users/janisg/trial-openjdk-alpine:/var/lib/misc:z
+    ports:
+      - "8080:8080"  # Eksponer port 8080 til vertsmaskinen
+    stdin_open: true  # Tilsvarer -i i docker run
+    tty: true         # Tilsvarer -t i docker run
+    restart: unless-stopped
