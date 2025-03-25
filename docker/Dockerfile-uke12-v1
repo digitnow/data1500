@@ -1,0 +1,17 @@
+# Bruk et offisielt Java-basert image som utgangspunkt
+FROM openjdk:17-jdk-slim
+
+# Opprett en mappe for applikasjonen
+WORKDIR /app
+
+# Kopier Java-kildekoden til containeren
+COPY Transactions.java .
+
+# Kompiler Java-koden
+RUN javac Transactions.java
+
+# Angi porten som applikasjonen kjører på
+EXPOSE 5005
+
+# Kjør applikasjonen når containeren starter
+CMD ["java", "Transactions"]

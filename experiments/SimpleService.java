@@ -25,7 +25,7 @@ public class SimpleService {
           cmd +
           "\n</p>\n" +
           "<p>" + 
-          // respons fra database
+          // respons fra database; må implementeres
           "\n</p>" +
           "\n</body>\n</html>\n";
 

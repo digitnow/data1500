@@ -1,0 +1,35 @@
+version: '3.3'
+services:
+  # Trial MariaDB-tjeneste
+  trial-mariadb:
+    image: mariadb:latest
+    container_name: trial-mariadb
+    environment:
+      MARIADB_ROOT_PASSWORD: Data1500&v25
+    restart: unless-stopped
+    volumes:
+      - kap10-mysql-data:/var/lib/mysql
+    networks:
+      - kap10-network
+
+  http-server:
+    container_name: java-http-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - trial-mariadb
+    environment:
+      DB_URL: "jdbc:mysql://trial-mariadb:3306/kap10?useSSL=false&serverTimezone=Europe/Oslo"
+      DB_USER: "u_kap10_25"
+      DB_PASSWORD: "123.Kap10#"
+    ports:
+      - "5005:5005"
+    networks:
+      - kap10-network
+
+volumes:
+  kap10-mysql-data:
+
+networks:
+  kap10-network:
