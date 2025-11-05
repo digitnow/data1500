@@ -24,6 +24,8 @@ Uttrykk: "sammenhengende komponenter med tett kopling på insiden og løs koplin
 - High cohesion results in loose coupling.
 
 ### Diskusjon
+hs - homo sapiens
+
 I prinsippet dreier seg alt om modellering, dvs. semantiske modeller som uttrykker aktørens verden, hvor en aktør kan representere 
 - fantasiroller i hodene på en hs aktør selv eller andre hs aktører i miljøet,
 - artefakter laget av hs aktører,
