@@ -8,7 +8,7 @@ Q: Hva er "cohesion", "complexity of systems", "coupling"?
 - cohension i IT - graden av hvor mye elementer i **en modul** hører sammen (hvordan er dette klart?)
 - coupling - no. kopling er mer teknisk enn kobling?
 - coupling i IT - graden av gjensidig avhengighet mellom (programvare-) moduler
-- jamfør - jf. - i samsvar med
+- jamfør - jf. - i samsvar med (https://snl.no/jamf%C3%B8r)
 
 Høy grad av sammenheng og lav grad av kopling (eller "løs" kopling) er de viktigste prinsippene i programvareteknikk (jf. programvareteknologi? en. software engineering).
 
@@ -22,6 +22,14 @@ Uttrykk: "sammenhengende komponenter med tett kopling på insiden og løs koplin
 - Cohesion is defined by the clients.
 - True cohesion is domain-driven.
 - High cohesion results in loose coupling.
+
+### Diskusjon
+I prinsippet dreier seg alt om modellering, dvs. semantiske modeller som uttrykker aktørens verden, hvor en aktør kan representere 
+- fantasiroller i hodene på en hs aktør selv eller andre hs aktører i miljøet,
+- artefakter laget av hs aktører,
+- naturlige ting (antropomorfisme, fordi at hs tilskriver disse tingene visse hs egenskaper og hs handlinger / hs adferd) i miljøet (fauna, flora, geologi osv.)
+
+Stor tvetydighet i definisjoner (SOLID, normalformer osv.) og bruken av disse for å beskrive prosesser i systemutvikling (både strukturering i "høyere-nivå" semantiske modeller, som programmeringsspråk representerer, eller andre modeller, som baserer seg på tabeller (rader og kolonner))
 
 
 ## Referanser
