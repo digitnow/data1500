@@ -16,7 +16,15 @@ Key benefits of using Discord included
 
 https://www.researchgate.net/publication/377107344_Examining_the_Benefits_and_Challenges_of_Using_Discord_in_Online_Higher_Education_Classrooms (an article from 2024)
 
+https://www.commonsense.org/education/articles/teachers-essential-guide-to-discord
+
 https://www.youtube.com/watch?v=PCA4TZOyOik (Discord for teachers)
+
+https://discord.com/blog/how-to-use-discord-for-your-classroom 
+
+https://www.youtube.com/watch?v=Z_WxrUqs8fk (beginners guide 1)
+
+https://www.youtube.com/watch?v=z-UkSb8WhO0 (beginners guide 2)
 
 # References
 - https://pixelscan.net/blog/discord-spam-bots-how-they-work-5-best-anti-spam-tools/
