@@ -96,4 +96,7 @@ entity A "being related" to an entity B in combination with one of the B's attri
 B is called identifying or owner entity type. 
 
 # Referanser
-Anton Putra. (2023). "Types of Databases: Relational vs. ...". https://www.youtube.com/watch?v=VfcRxtBKI54 , sist sett 2025-11-26
+- Anton Putra. (2023). "Types of Databases: Relational vs. ...". https://www.youtube.com/watch?v=VfcRxtBKI54 , sist sett 2025-11-26
+- https://www.youtube.com/watch?v=jyx8iP5tfCI (db song about seven databases)
+- https://www.youtube.com/watch?v=AB8QWv_dBc4
+
