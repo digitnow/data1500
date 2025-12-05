@@ -11,3 +11,6 @@ Hvordan evaluere databasebehov for dine applikasjoner?
 Formål: Få en intuisjon - hva er tradeoff-er mellom fart (en. speed) og kostnad (en. cost)?
 
 Lese mer http://www.barroso.org/publications/AttackoftheKillerMicroseconds.pdf -- 2017 CACM article
+
+
+- sorting/hashing algorithms in cell Small/Algoritmer
