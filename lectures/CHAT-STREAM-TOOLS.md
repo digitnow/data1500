@@ -1,4 +1,4 @@
-# Chat with the audience while showing screen?
+# Chat with the audience while showing the screen?
 - For public game streaming to a wide audience, Twitch is ideal.
 - For private streams and video chats under 50 viewers, Discord fits the bill.
 - To engage and chat with a community off-stream, choose Discord.
@@ -19,13 +19,41 @@ Key benefits of using Discord included (see [1]):
 Main challenges (see [1]):
 - Unfamiliar with Discord and a need for a tutorial on how to use it; threads and channels were difficult to get used to
 - Discord is another app to use and check
-- Sometimes the app doesn’t work orinternet access was insufficient
+- Sometimes the app doesn’t work or internet access is insufficient
+
+# Examples
+- General text channels:
+  - #announcements,
+  - #general,
+  - #lecture_chat to submit questions and comments during lectures (TA monitored the chat),
+  - #ta_chat (private),
+  - #tech_help, and
+  - #off-topic.
+- General voice channels included “General,” used for class instruction and office hours, and “TA” (private, for the professor and TAs, here referred to jointly as instructors).
+- Another example of classes of channels: Welcome/Introductory,topic-specific, and off-topic.
+- An instructor could give instant feedback by reacting to comments with specific emojis or marking comments needing follow-up conversations.
+
+Actions:
+- An instructor occasionally posted figures or data here so that students could be directed to analyze them in **breakout groups** (are they available in Discord?)
+- During lectures, the professor also asked questions to which students could respond via chat.
+- additional voice channel categories were created for **breakout groups** and **peer review**
+- When students were in breakout groups, instructors could call them back by using the tag @everyone to alert them to rejoin the “General” voice channel. During breakout sessions, students posted responses requested by instructors in #lecture_chat. With other platforms, such as Zoom, there is no communication between breakout rooms or between breakout and main rooms. In Discord, students can interact with members in any other text channel to which they have access, and instructors can instantly move between voice channels to monitor students’ processes and progress.
+
+Terms:
+- peer review
+- breakout groups
+- feedback forms
+  - helps to identify issues
+  - provides real-time feedback
+  - improves communication
+  - streamlines community management
+  - creates a welcoming environment
 
 # Greater perspective
-- common, community, communiation: aims, beliefs, aspirations, knowledge (see [10])
+- common, community, communication: aims, beliefs, aspirations, knowledge (see [10])
 - Each would have to know what the other was about and would have to have some way of keeping the other informed as to his own purpose and progress.
 - Consensus demands communication.
-- Giving and taking of orders modifies action and results, but does not of itself effect a sharing of purposes, a communication of interests.
+- Giving and taking of orders modifies action and results, but does not of itself affect a sharing of purposes, a communication of interests.
 - To be a recipient of a communication is to have an enlarged and changed experience.
 - Først når det blir støpt i en form (f.eks. pensumbok valgt av noen) og kjører på en rutinemessig måte, mister det sin dannelseskraft.
 - Much of what adults do is so remote in space and in meaning that playful imitation is less and less adequate to reproduce its spirit.
