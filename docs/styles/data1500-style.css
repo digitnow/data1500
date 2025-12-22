@@ -1,0 +1,291 @@
+body {
+  background-color: #00000000; /* #240d20 #00203FFF */
+  color: #000000a0; /* #fbdcc4 074989 #ADEFD1FF 004588 #ADEFD1 */
+  font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
+}
+a:link, a:hover, a:active, a:visited {
+  color: #153c2e;
+}
+
+.maincolumn {
+  width: 38em;
+  margin-right: -40em;
+  margin-left: 15em;
+  line-height: 1.6em;
+}
+
+h1, h2 {
+  line-height: 1.2em;
+}
+.table1 {
+  border-collapse: collapse;
+}
+.table1 td, .table1 th {
+  border: 1px solid #bc9000;
+  padding: 10px 20px;
+}
+.def {
+  padding: 1em; 
+  border: 3px groove #728FCE; 
+  width: 50%;
+}
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+/*
+pre {
+  overflow: auto;
+  font-family: 'Monaco', monospace;
+  padding: 0 1em;
+  font-size: 0.9em;
+  color: #000000;
+}
+code {
+  font-family: Monaco, monospace;
+  line-height: 100%;
+  color: #000000;
+  padding: 0.2em;
+  letter-spacing: -0.05em;
+  word-break: normal;
+  border-radius: 5px;
+}
+*/
+pre {
+  background-color: #FFFBF7;
+  overflow: auto;
+  font-family: 'Monaco', monospace;
+  /*padding: 0 1em;*/
+  font-size: 0.8em;
+}
+code {
+  font-family: Monaco, monospace;
+  line-height: 100%;
+  color: #565656;
+  padding: 0.2em;
+  letter-spacing: -0.05em;
+  word-break: normal;
+  border-radius: 5px;
+}
+.defblockquote {
+    border-left: 4px solid #ddd;
+    padding: 0 1em;
+    margin: 0.5em;
+    color: #767676;
+    display: inline-block;
+}
+
+
+
+/* Tekstbokser på høyre side av hovedkolonnen */
+.refelem, .refcolumn, .refcontent {
+  background-color: #002F5D;
+  color: #C57500; /* #eeeeee */
+  border-color: black;
+  font-family: 'IBM Plex Serif';
+}
+.refpara, .refelem {
+  position: relative;
+  float: right;
+  left: 2em;
+  height: 0em;
+  width: 13em;
+  margin: 0em -13em 0em 0em;
+}
+.refcolumn {
+  background-color: #002F5D; /* #F5F5DC */
+  display: block;
+  position: relative;
+  width: 13em;
+  font-size: 85%;
+  border: 0.5em solid #002F5D;
+  margin: 0 0 0 0;
+  white-space: normal;
+}
+.refcontent {
+  margin: 0 0 0 0;
+}
+/* Innholdsfortegnelse på venstre side av hovedkolonnen */
+.tocset {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  float: left;
+  width: 12.5em;
+  margin-right: 2em;
+}
+.tocview, .tocsub {
+  background-color: #ffd500;
+}
+.tocviewlisttopspace {
+  margin-bottom: 1em;
+}
+.tocviewlist, .tocsublist {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+.tocviewlist table {
+  font-size: 82%;
+}
+.tocviewlink {
+  text-decoration: none;
+}
+.tocsubtitle {
+  font-size: 82%;
+  font-style: italic;
+  margin: 0.2em;
+}
+.tocsublinknumber {
+  font-size: 82%;
+}
+.tocsubseclink {
+  font-size: 82%;
+  text-decoration: none;
+}
+.tocviewtitle * {
+  font-weight: bold;
+}
+.tocviewsublist, .tocviewsublistonly, .tocviewsublisttop, .tocviewsublistbottom {
+  margin-left: 0.4em;
+  border-left: 1px solid #bbf;
+  padding-left: 0.8em;
+}
+.tocviewsublist table, .tocviewsublistonly table, .tocviewsublisttop table, .tocviewsublistbottom table {
+  font-size: 75%;
+}
+.tocviewtoggle {
+  text-decoration: none;
+  color: blue;
+  font-size: 75%;
+}
+.tocviewselflink {
+  text-decoration: underline;
+}
+.tocviewlisttopspace {
+  margin-bottom: 1em;
+}
+.versionbox {
+  position: relative;
+  float: right;
+  left: 2em;
+  height: 0em;
+  width: 13em;
+  margin: 0em -13em 0em 0em;
+}
+.version {
+  font-size: small;
+}
+blockquote {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+/* section for "do it now" */
+.incercise {
+  padding: 0px 0px 0.5em 10px;
+  border-left-style: solid;
+  border-width: 5px;
+  border-color: red;
+  background-color: #ffebcd;
+}
+.incerciseheader {
+  font-weight: bold;
+  font-style: italic;
+  background-color: #ff7667;
+  padding: 5px 0px 5px 10px;
+  margin-left: -10px;
+}
+
+/* section with programming code */
+.codeexamp {
+  padding: 0px 0px 0px 0px;
+  border-left-style: solid;
+  border-width: 5px;
+  border-color: green;
+  background-color: #FFFBF7;
+}
+
+.codeexampheader {
+  color: antiquewhite;
+  background-color: #6d8486;
+  padding: 5px 0px 5px 10px;
+  margin-left: 0px;
+  margin-top: 0;
+}
+
+/* section about responsible computing */
+.respcs {
+    padding: 0px 0px 0.5em 10px;
+    border: 3px solid #896a70;
+    background-color: #fce2cd;
+}
+.respcsheader {
+    font-weight: bold;
+    background-color: #896a70;
+    color: #FEF1E6;
+    padding: 0.3em 0px 5px 10px;
+    margin-left: -10px;
+    margin-top: 0;
+}
+
+/* section for exercise */
+.exercise {
+    padding: 0px 0px 0.5em 10px;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: orange;
+    background-color: #ffebcd;
+}
+.exerciseheader {
+    font-weight: bold;
+    background-color: #ffb167;
+    padding: 5px 0px 5px 10px;
+    margin-left: -10px;
+}
+
+.strategy {
+    padding: 0px 0px 0.5em 10px;
+    border: 3px solid #2a8891;
+    background-color: #dddddd;
+}
+
+.strategyheader p {
+  margin: 0 0 1em 0;
+}
+
+.strategyheader {
+    font-weight: bold;
+    background-color: #2a8891;
+    color: #E8E6E7;
+    padding: 5px 0px 5px 10px;
+    margin: 0 0 1em -10px;
+}
+
+.incercisebody, .exercisebody .dtrategybody .respcsbody .strategybody {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.imgcontainer {
+  align-items: center;
+  float:left;
+}
+
+/* print styles */
+@media print {
+
+  .tocset {
+    display: none;
+  }
+  .maincolumn {
+    width: 35em;
+    margin-right: -40em;
+    margin-left: 5em;
+    line-height: 1.6em;
+  }
+
+}
