@@ -89,6 +89,7 @@ public class Transactions {
         try (Connection connection = getConnection()) {
             // Start transaksjonen
             connection.setAutoCommit(false);
+            connection.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);
 
             // Hent balansen til Alice
             String sql = "SELECT balance FROM accounts WHERE name = 'Alice'";
